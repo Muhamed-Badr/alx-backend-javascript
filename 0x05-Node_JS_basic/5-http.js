@@ -49,7 +49,7 @@ const app = http.createServer((request, response) => {
   response.statusCode = 200;
   response.setHeader('Content-Type', 'text/plain');
   if (request.url === '/') {
-    response.write('Hello ALX!');
+    response.write('Hello Holberton School!');
     response.end();
   }
   if (request.url === '/students') {
